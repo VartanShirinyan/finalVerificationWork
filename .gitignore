@@ -400,3 +400,6 @@ FodyWeavers.xsd
 
 # Photo
 *.png
+
+# gitignore
+*.gitignore
