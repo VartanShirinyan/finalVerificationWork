@@ -403,3 +403,5 @@ FodyWeavers.xsd
 
 # gitignore
 *.gitignore
+
+*.vscode
