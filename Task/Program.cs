@@ -21,7 +21,7 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 newArrayWithIF(Array, newArray);
-Console.WriteLine("Вывод оригинального массива");
+Console.WriteLine("Output of the original array");
 PrintArray(Array);
-Console.WriteLine("Вывод нового массива");
+Console.WriteLine("Output of a new array");
 PrintArray(newArray);
