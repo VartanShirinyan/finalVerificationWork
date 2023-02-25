@@ -1,13 +1,13 @@
-﻿string[] firstArray = new string[5] { "1", "final", "task", "in", "GeekBrains" };
-string[] secondArray = new string[firstArray.Length];
-void SecondArrayWithIF(string[] firstArray, string[] secondArray)
+﻿string[] Array = new string[5] { "1", "final", "task", "in", "GeekBrains" };
+string[] newArray = new string[Array.Length];
+void newArrayWithIF(string[] Array, string[] newArray)
 {
     int count = 0;
-    for (int i = 0; i < firstArray.Length; i++)
+    for (int i = 0; i < Array.Length; i++)
     {
-        if (firstArray[i].Length <= 3)
+        if (Array[i].Length <= 3)
         {
-            secondArray[count] = firstArray[i];
+            newArray[count] = Array[i];
             count++;
         }
     }
@@ -20,8 +20,8 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(firstArray, secondArray);
+newArrayWithIF(Array, newArray);
 Console.WriteLine("Вывод оригинального массива");
-PrintArray(firstArray);
+PrintArray(Array);
 Console.WriteLine("Вывод нового массива");
-PrintArray(secondArray);
+PrintArray(newArray);
